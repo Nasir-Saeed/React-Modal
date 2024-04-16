@@ -6,7 +6,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="home-bg.jpg"
+          src="home-bg-n.jpg"
           alt="First slide"
           text="Awesome App For Your Modern Lifestyle"
         />
