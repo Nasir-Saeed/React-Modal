@@ -11,8 +11,7 @@ function UncontrolledExample() {
           text="Awesome App For Your Modern Lifestyle"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h1>Awesome App For Your Modern Lifestyle</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -23,8 +22,7 @@ function UncontrolledExample() {
           text="Digital Agency & Marketing"
         />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h1>Digital Agency & Marketing</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -35,10 +33,7 @@ function UncontrolledExample() {
           text="Make Real-Life Connections With IT"
         />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h1>Make Real-Life Connections With IT</h1>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
