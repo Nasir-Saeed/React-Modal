@@ -10,7 +10,7 @@ function BasicExample() {
       <Row className="mt-5">
         <Col>
           {" "}
-          <Card style={{ width: "18rem" }} className="text-center">
+          <Card style={{ width: "18rem" }} className="text-center pt-3">
             <Card.Img variant="top" src="card/s1.png"/>
             <Card.Body>
               <Card.Title>Visual Design</Card.Title>
@@ -24,7 +24,7 @@ function BasicExample() {
         </Col>
         <Col>
           {" "}
-          <Card style={{ width: "18rem" }} className="text-center">
+          <Card style={{ width: "18rem" }} className="text-center pt-3">
             <Card.Img variant="top" src="card/s2.png" />
             <Card.Body>
               <Card.Title>Development</Card.Title>
@@ -38,7 +38,7 @@ function BasicExample() {
         </Col>
         <Col>
           {" "}
-          <Card style={{ width: "18rem" }} className="text-center">
+          <Card style={{ width: "18rem" }} className="text-center pt-3">
             <Card.Img variant="top" src="card/s3.png" />
             <Card.Body>
               <Card.Title>QA Testing</Card.Title>
@@ -54,7 +54,7 @@ function BasicExample() {
       <Row className="mt-5">
         <Col>
           {" "}
-          <Card style={{ width: "18rem" }} className="text-center">
+          <Card style={{ width: "18rem" }} className="text-center pt-3">
             <Card.Img variant="top" src="card/s4.png" />
             <Card.Body>
               <Card.Title>IT Management</Card.Title>
@@ -68,7 +68,7 @@ function BasicExample() {
         </Col>
         <Col>
           {" "}
-          <Card style={{ width: "18rem" }} className="text-center">
+          <Card style={{ width: "18rem" }} className="text-center pt-3">
             <Card.Img variant="top" src="card/s5.png" />
             <Card.Body>
               <Card.Title>Cyber Security</Card.Title>
@@ -82,7 +82,7 @@ function BasicExample() {
         </Col>
         <Col>
           {" "}
-          <Card style={{ width: "18rem" }} className="text-center">
+          <Card style={{ width: "18rem" }} className="text-center pt-3">
             <Card.Img variant="top" src="card/s6.png" />
             <Card.Body>
               <Card.Title>Wireless Connectivity</Card.Title>
