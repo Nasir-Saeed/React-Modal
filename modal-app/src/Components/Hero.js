@@ -8,7 +8,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src="home-bg.jpg"
           alt="First slide"
-          text="First Slide"
+          text="Awesome App For Your Modern Lifestyle"
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -18,9 +18,9 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="home-bg2.jpg"
+          src="home-bg-2.jpg"
           alt="First slide"
-          text="First Slide"
+          text="Digital Agency & Marketing"
         />
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -30,9 +30,9 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="home-bg3.jpg"
+          src="home-bg-3.jpg"
           alt="First slide"
-          text="First Slide"
+          text="Make Real-Life Connections With IT"
         />
         <Carousel.Caption>
           <h3>Third slide label</h3>
