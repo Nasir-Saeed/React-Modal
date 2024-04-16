@@ -6,7 +6,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src="home-bg.jpg"
           alt="First slide"
           text="First Slide"
         />
