@@ -18,7 +18,7 @@ function BasicExample() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Read More</Button>
+              <Button variant="info">Read More</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -32,7 +32,7 @@ function BasicExample() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Read More</Button>
+              <Button variant="info">Read More</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -46,7 +46,7 @@ function BasicExample() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Read More</Button>
+              <Button variant="info">Read More</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -62,7 +62,7 @@ function BasicExample() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Read More</Button>
+              <Button variant="info">Read More</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -76,7 +76,7 @@ function BasicExample() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Read More</Button>
+              <Button variant="info">Read More</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -90,7 +90,7 @@ function BasicExample() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">Read More</Button>
+              <Button variant="info">Read More</Button>
             </Card.Body>
           </Card>
         </Col>

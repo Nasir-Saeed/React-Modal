@@ -1,6 +1,12 @@
 import Carousel from "react-bootstrap/Carousel";
+import Button from 'react-bootstrap/Button';
+import React from 'react';
+import Modal from "./Modal";
+
 
 function UncontrolledExample() {
+  const [modalShow, setModalShow] = React.useState(false);
+
   return (
     <Carousel>
       <Carousel.Item>
@@ -11,7 +17,17 @@ function UncontrolledExample() {
           text="Awesome App For Your Modern Lifestyle"
         />
         <Carousel.Caption>
-          <h1>Awesome App For Your Modern Lifestyle</h1>
+          <h1>
+            Awesome App For Your Modern Lifestyle
+            <br/>
+            <Button variant="success" onClick={() => setModalShow(true)}>
+              Contact Us
+            </Button>
+            <Modal
+              show={modalShow}
+              onHide={() => setModalShow(false)}
+            />
+          </h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -22,7 +38,16 @@ function UncontrolledExample() {
           text="Digital Agency & Marketing"
         />
         <Carousel.Caption>
-          <h1>Digital Agency & Marketing</h1>
+          <h1>Digital Agency & Marketing
+          <br/>
+            <Button variant="success" onClick={() => setModalShow(true)}>
+              Contact Us
+            </Button>
+            <Modal
+              show={modalShow}
+              onHide={() => setModalShow(false)}
+            />
+          </h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -33,7 +58,16 @@ function UncontrolledExample() {
           text="Make Real-Life Connections With IT"
         />
         <Carousel.Caption>
-          <h1>Make Real-Life Connections With IT</h1>
+          <h1>Make Real-Life Connections With IT
+          <br/>
+            <Button variant="success" onClick={() => setModalShow(true)}>
+              Contact Us
+            </Button>
+            <Modal
+              show={modalShow}
+              onHide={() => setModalShow(false)}
+            />
+          </h1>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
